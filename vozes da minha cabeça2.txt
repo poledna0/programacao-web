@@ -1,0 +1,19 @@
+HTML
+
+<title> titulo (bgl q fica a barrinha em cima)
+<p> paragrafo 
+<h1>.......<h6> titul cm sequencia de relevancia 
+<b> negrito ou <strong>
+<hr> faz uma linha para dividir ________________
+<br> quebra de linha
+<i> italico 
+<u> deixa sublinhado
+<small> deixa pequeno
+<dell> R$ 400 para 300, vai riscar o dentro do dell
+<mark> para passar marcador de texto
+<addres> para colocar endereços em geral
+<!--comentario-->
+<a href="google.com" target="_blunk"> ir para o google </a> link par ao google, o target="_blunk serve para abrir em outra aba
+<a href="outro.html"> para conctar dois arquivos
+../index.html(voltar a pasta)
+

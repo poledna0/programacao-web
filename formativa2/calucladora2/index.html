@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>ola</title>
+    <style>
+        .custominput {
+            padding: 10px;
+            border-color: #EEE;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            width: 3px;
+            box-sizing: 3px;
+            margin-bottom: 1px;
+        }
+        .botaolindo
+    </style> 
 </head>
 <body>
     
+    <input class="custominput" id="campo1" type="number">
+    +
+    <input class="custominput" type="number" id="campo2">
+    <button onclick="soma()">somar</button>
+    <br>
+
+    <input class="custominput" id="campo3" type="number">
+    -
+    <input class="custominput" type="number" id="campo4">
+    <button onclick="subtrair()">subtrair</button>
+    <br>
+
+    <input class="custominput" id="campo5" type="number">
+    *
+    <input class="custominput" type="number" id="campo6">
+    <button onclick="multiplicar()">multiplicar</button>
+    <br>
+
+    <input class="custominput" id="campo7" type="number">
+    /
+    <input class="custominput" type="number" id="campo8">
+    <button onclick="dividir()">dividir</button>
+    <br>
+
+
+    <script>
+        function soma() {
+            var valor1 = document.getElementById('campo1').value;
+            var valor2 = document.getElementById('campo2').value;
+            var valor = parseInt(valor1, 10) + parseInt(valor2, 10);
+            
+            window.alert("O RESULATDO É " + valor);
+        }
+
+        function subtrair() {
+            var valor1 = document.getElementById('campo3').value;
+            var valor2 = document.getElementById('campo4').value;
+            var valor = parseInt(valor1, 10) - parseInt(valor2, 10);
+            
+            window.alert("O RESULATDO É " + valor);
+        }        
+
+        function multiplicar() {
+            var valor1 = document.getElementById('campo5').value;
+            var valor2 = document.getElementById('campo6').value;
+            var valor = parseInt(valor1, 10) * parseInt(valor2, 10);
+            
+            window.alert("O RESULATDO É " + valor);
+        }        
+        
+        function dividir() {
+            var valor1 = document.getElementById('campo7').value;
+            var valor2 = document.getElementById('campo8').value;
+            var valor = parseInt(valor1, 10) / parseInt(valor2, 10);
+            
+            window.alert("O RESULATDO É " + valor);
+        }
+    </script>
 </body>
 </html>
