@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+
 </head>
 <body>
-    
+    <input id="campo1" type="number">
+    <input type="number" id="campo2">
+    <button onclick="funcao()">comparar</button>
+    <script>
+        function funcao(){
+            var valor1 = parseInt(document.getElementById("campo1").value);
+            var valor2 = parseInt(document.getElementById("campo2").value);
+            var resultado = valor1 > valor2 ? valor1 : valor2;
+            var msg = `O maior é: ${resultado}`;
+            alert(msg);
+        }
+    </script>
+
 </body>
 </html>
