@@ -16,4 +16,20 @@ HTML
 <a href="google.com" target="_blunk"> ir para o google </a> link par ao google, o target="_blunk serve para abrir em outra aba
 <a href="outro.html"> para conctar dois arquivos
 ../index.html(voltar a pasta)
+<img src="" width="300px"> se eu deixar assim eu estou especificando 
+apenas a largura, a altura ele calcula automático para a imagem ficar certa
+se a n ser q eu coloco tb o height="300px", dsi ele fica da forma q eu quero
+<table width="100%" border="1px"> (para fazer uma lista com colunas
+	<tr>
+		<th>batata</th>
+		<th>coco</th>
+		<th>abacate</th>
+	</tr>
+	<tr>
+		<td>laranja</td>
+		<td>banana</td>
+		<td>maça</td>
+	</tr>
+</table>
+
 
