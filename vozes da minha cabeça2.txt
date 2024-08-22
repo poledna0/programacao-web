@@ -1,25 +1,41 @@
 HTML
 
 <title> titulo (bgl q fica a barrinha em cima)
+
 <p> paragrafo 
+
 <h1>.......<h6> titul cm sequencia de relevancia 
+
 <b> negrito ou <strong>
+
 <hr> faz uma linha para dividir ________________
+
 <br> quebra de linha
+
 <i> italico 
+
 <u> deixa sublinhado
+
+
 <small> deixa pequeno
+
 <dell> R$ 400 para 300, vai riscar o dentro do dell
+
 <mark> para passar marcador de texto
+
 <addres> para colocar endereços em geral
+
 <!--comentario-->
+
 <a href="google.com" target="_blunk"> ir para o google </a> link par ao google, o target="_blunk serve para abrir em outra aba
 <a href="outro.html"> para conctar dois arquivos
 ../index.html(voltar a pasta)
+
 <img src="" width="300px"> se eu deixar assim eu estou especificando 
 apenas a largura, a altura ele calcula automático para a imagem ficar certa
 se a n ser q eu coloco tb o height="300px", dsi ele fica da forma q eu quero
-<table width="100%" border="1px"> (para fazer uma lista com colunas
+
+<table width="100%" border="1px"> (para fazer uma tabela com colunas
 	<tr>
 		<th>batata</th>
 		<th>coco</th>
@@ -32,4 +48,13 @@ se a n ser q eu coloco tb o height="300px", dsi ele fica da forma q eu quero
 	</tr>
 </table>
 
+<ul>
+	<li>lista</li>
+	<li>nao ordenada</li>
+	<li>sem pnumero</li>
+</ul<
+
+<ol> para fazer sequencial, com numeros</ol>
+
+<iframe src="" width="400px" para renderizar uma pg ext internamente 
 
